@@ -7,10 +7,10 @@ kolegij['ects'] = int(input("Unesite ECTS bodove za kolegij: "))
 print("Kolegij",kolegij['predmet'],"nosi",kolegij['ects'],"ECTS bodova.")
 
 ispit['kolegij'] = kolegij
-ispit['dan'] = int(input("Unesite dan ispita:"))
-ispit['mjesec'] = int(input("Unesite mjesec ispita:"))
-ispit['godina'] = int(input("Unesite godinu ispita:"))
-ispit['datum'] = date(ispit['godina'],ispit['mjesec'],ispit['dan'])
+dan= int(input("Unesite dan ispita:"))
+mjesec= int(input("Unesite mjesec ispita:"))
+godina= int(input("Unesite godinu ispita:"))
+ispit['datum'] = date(godina,mjesec,dan)
 print("Kolegij",ispit['kolegij']['predmet'],"nosi",ispit['kolegij']['ects'],"ECTS bodova.")
 print("Datum ispita je",ispit['datum'])
 
