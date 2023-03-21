@@ -4,15 +4,15 @@ ispit = {}
 student = {}
 kolegij['predmet'] = input("Unesite ime kolegija:").upper()
 kolegij['ects'] = int(input("Unesite ECTS bodove za kolegij: "))
-print("Kolegij",kolegij['predmet'],"nosi",kolegij['ects'],"ECTS bodova.")
+#print("Kolegij",kolegij['predmet'],"nosi",kolegij['ects'],"ECTS bodova.")
 
 ispit['kolegij'] = kolegij
 dan= int(input("Unesite dan ispita:"))
 mjesec= int(input("Unesite mjesec ispita:"))
 godina= int(input("Unesite godinu ispita:"))
 ispit['datum'] = date(godina,mjesec,dan)
-print("Kolegij",ispit['kolegij']['predmet'],"nosi",ispit['kolegij']['ects'],"ECTS bodova.")
-print("Datum ispita je",ispit['datum'])
+#print("Kolegij",ispit['kolegij']['predmet'],"nosi",ispit['kolegij']['ects'],"ECTS bodova.")
+#print("Datum ispita je",ispit['datum'])
 
 student['ime'] = input("Unesite ime studenta:").capitalize()
 student['prezime'] = input("Unesite prezime studenta:").capitalize()
